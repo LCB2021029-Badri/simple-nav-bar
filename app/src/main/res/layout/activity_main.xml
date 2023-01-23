@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bg">
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/fragment_container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_above="@+id/navigation_bar"/>-->
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/navigation_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="?android:attr/windowBackground"-->
+<!--        app:itemBackground="@color/bg"-->
+<!--        app:itemIconTint="@color/ic"-->
+<!--        app:itemTextColor="@color/ic"-->
+<!--        app:menu="@menu/navigation_menu" />-->
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click the button to\ngo to the main\nactivity of the app"
+        android:textColor="@color/ic"
+        android:textSize="30sp"
+        android:layout_marginTop="250dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Next"
+        android:textColor="@color/bg"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/ic"
+        android:layout_below="@id/text"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="15dp"
+        />
+
+
+</RelativeLayout>

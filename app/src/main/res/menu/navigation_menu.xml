@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/op_scouts"
+        android:icon="@drawable/ic_scouts"
+        android:title="SCOUTS"/>
+
+    <item
+        android:id="@+id/op_guards"
+        android:icon="@drawable/ic_guards"
+        android:title="GUARDS"/>
+
+    <item
+        android:id="@+id/op_military"
+        android:icon="@drawable/ic_military"
+        android:title="MILITARY"/>
+
+    <item
+        android:id="@+id/op_all"
+        android:icon="@drawable/ic_all"
+        android:title="ALL"/>
+
+</menu>
